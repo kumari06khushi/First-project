@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="02_portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Fenix">
+
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!--header desgin-->
+<div id="header">
+    <div class="container">
+        <nav>
+       <h2 class="logo"><span class="red">Khu</span><span class="white">shi.</span></h2>
+        <ul>
+        <li><a href="#">Home</a></li>
+         <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+           <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+<!-- for small screen-->
+ <div class="hamburger" onclick="toggleMenu()">
+  <i class="fas fa-bars"></i>
+</div>
+
+    </nav>
+    <div class="header-container">
+    <div class="header-text">
+        <p>Hi , Myself</p>
+        <h2>Khushi Kumari</h1>
+            <p>And i' m a <span>Frontend Developer</span>  !</p>
+    </div>
+     <img src="half1.png" alt="">
+    </div>
+</div>
+</div>
+ <div class="separation"></div>
+<!--about-->
+<div id="about">
+    <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="fulledit.png" alt="my full pic">
+        </div>
+         <div class="about-col-2 ">
+         <h2 class="sub-title">About Me</h2>
+        <p class="about"> Hi, I’m Khushi Kumari—a creative front-end developer who enjoys building clean, responsive, and user-friendly websites.I'm currently pursuing Mechanical Engineering, I’ve found my true interest in the world of web development.
+
+I currently work with HTML, CSS, and JavaScript,and
+I'm eager to contribute to real-world projects, continuously learn new technologies, and grow as a software developer. <br>
+Let's build something amazing together!
+<br>
+Let’s connect and create something impactful! </p>
+<div class="tab-title">
+    <p class="tab-links active-link"  onclick="opentab('skills',event)">Skills</p>
+    <p class="tab-links" onclick="opentab('experience',event)">Experience</p>
+    <p class="tab-links" onclick="opentab('education',event)">Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>UI/UX</span><br>Wireframing, prototyping, and user-centered Design</li>
+        <li><span>front-end Development</span><br>Responsive Design</li>
+        <li><span>Version-control</span><br>Git & GitHub</li>
+    </ul>
+</div>
+<div class="tab-contents" id="experience">
+    <ul>
+        <li><span>Simple Calculator (Project)</span><br>
+Developed a basic calculator using HTML, CSS, and JavaScript that performs addition, subtraction, multiplication, and division. Focused on clean layout, user-friendly interface, and functional button interactions. This project helped strengthen my understanding of DOM manipulation and JavaScript logic.
+</li>
+        <li><span>Personal Portfolio Website</span><br>
+Designed and developed a responsive personal website using HTML, CSS, and JavaScript to showcase skills and projects. Implemented smooth scrolling and mobile-friendly layout. 
+</li>
+    </ul>
+         </div>
+         <div class="tab-contents" id="education">
+    <ul>
+        <li><span>Bachelor of Technology (B.Tech)</span><br>
+    <p><strong>Bhagalpur College of Engineering (BCE), Bihar</strong></p>
+    <p>2023 – 2027</p>
+    <p>
+      I am currently in my second year of Mechanical Engineering. While my academic background is technical, I’ve developed a deep interest in front-end and web development and UI/UX design. I’ve completed HTML, CSS, JavaScript, and Git alongside my studies, aiming to transition into a career in software development.
+    </p>
+  </div>
+</li>
+    </ul>
+</div>
+    </div>
+</div>
+</div>
+</div>
+
+<!--services-->
+
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title"> My Services</h2> 
+        <div class="services-list">
+<div>
+       
+            <h2>Frontend Design</h2>
+            <p>I create engaging, well-structured content tailored for interactive user reading, focused on clarity, usability, and delivering valuable information across web platforms and digital interfaces.</p>
+            <a href="#">Learn more</a>
+</div>
+          <div>
+           
+            <h2>UI/UX Design</h2>
+            <p>Passionate about crafting seamless digital experiences, I combine UI design aesthetics with UX thinking to build clean, responsive, and user-friendly interfaces across devices.</p>
+            <a href="#">Learn more</a>
+        
+          </div> 
+        </div>
+    </div>
+</div>
+
+<!--portfolio-->
+
+<div id="portfolio">
+    <div class="container">
+         <h2 class="sub-title"> My Work</h2> clear
+         
+         <div class="work-list">
+            <div class="work">  
+                <img src="front1.jpg" alt="food" srcset="">
+                <div class="layer">
+                <h3>Frontend Design</h3>
+                <p>We design apps that look great and are easy for everyone to use.</p>
+            </div>
+            </div>
+            <div class="work">
+                <img src="ui1.jpg" alt="music" srcset="">
+                  <div class="layer">
+                <h3>User Interface Design</h3>
+                    <p>Designing smooth and sytlish UI prototypes that make your app feel alive.</p>
+            </div>
+            </div>
+            <div class="work">  
+                <img src="ui2.jpg" alt="makeup" srcset="">
+                  <div class="layer">
+                <h3>User Interface Design</h3>
+                <p>Clean, soft, and elegant UI designs that reflect the purity of your  brand</p>
+            </div>
+            </div>
+         </div>
+       <a href="#" class="btn">See more</a>
+</div>
+
+<!--conctact-->
+<div id="contact">
+    <div class="container">
+<div class="row">
+    <div class="contact-left">
+        <h2 class="sub-title">Contact Me</h2>
+        <p><i class="fa-regular fa-paper-plane"></i>khushi16bce@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i>7061606433</p>
+        <div class="socal-icons">
+            <a href=""><i class="fa-regular fa-envelope"></i></a>
+             <a href="https://www.linkedin.com/in/khushi-kumari-a91240366?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="My Resume.pdf" download class="btn btn2">Download CV</a>
+    </div>
+    <div class="contact-right">
+<form name="submit-to-google-sheet">
+    <input type="text" name="Name" placeholder="Your Name">
+    <input type="email"name="Email" placeholder="Your Email ">
+    <textarea name="Message"rows="6"placeholder=" Your Message"></textarea>
+    <button type="submit" class="btn btn2">Submit</button>
+</form>
+
+<span id="msg"></span>
+    </div>
+</div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ khushi.My personal portfolio</p>
+    </div>
+</div>
+   <script src="03_portfolio.js"></script>
+   <script>
+    <!--contact form script-->
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbztLTsoUepuZBGo5Tq93L1IV4a1GQk1VChiau7600d_n5OLEr8NafX3bFOjbmUXD3zZpA/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML="Message Sent Successfully"
+        setTimeout(function() {
+           msg.innerHTML="" 
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
